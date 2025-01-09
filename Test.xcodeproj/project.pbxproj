@@ -11,6 +11,13 @@
 		9101D4122D2EB04C007BAF48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101D4112D2EB04C007BAF48 /* ContentView.swift */; };
 		9101D4142D2EB04D007BAF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9101D4132D2EB04D007BAF48 /* Assets.xcassets */; };
 		9101D4172D2EB04D007BAF48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9101D4162D2EB04D007BAF48 /* Preview Assets.xcassets */; };
+		9101D4222D2F0366007BAF48 /* HomeScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101D4212D2F0366007BAF48 /* HomeScreenModel.swift */; };
+		9101D4242D2F062F007BAF48 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101D4232D2F062F007BAF48 /* HomeScreenViewModel.swift */; };
+		9101D4262D2F065C007BAF48 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101D4252D2F065C007BAF48 /* HomeScreenView.swift */; };
+		9101D4292D2F09CD007BAF48 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101D4282D2F09CD007BAF48 /* ErrorView.swift */; };
+		9101D42B2D2F09ED007BAF48 /* HomeScreenItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101D42A2D2F09ED007BAF48 /* HomeScreenItemView.swift */; };
+		9101D4302D2F99DC007BAF48 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101D42F2D2F99DC007BAF48 /* ToastView.swift */; };
+		9101D4322D2FB0B6007BAF48 /* BurstFadeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9101D4312D2FB0B6007BAF48 /* BurstFadeAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		9101D4112D2EB04C007BAF48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9101D4132D2EB04D007BAF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9101D4162D2EB04D007BAF48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9101D4212D2F0366007BAF48 /* HomeScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenModel.swift; sourceTree = "<group>"; };
+		9101D4232D2F062F007BAF48 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		9101D4252D2F065C007BAF48 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		9101D4282D2F09CD007BAF48 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		9101D42A2D2F09ED007BAF48 /* HomeScreenItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenItemView.swift; sourceTree = "<group>"; };
+		9101D42F2D2F99DC007BAF48 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		9101D4312D2FB0B6007BAF48 /* BurstFadeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurstFadeAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,7 @@
 			children = (
 				9101D40F2D2EB04C007BAF48 /* TestApp.swift */,
 				9101D4112D2EB04C007BAF48 /* ContentView.swift */,
+				9101D41D2D2F0339007BAF48 /* Home Screen */,
 				9101D4132D2EB04D007BAF48 /* Assets.xcassets */,
 				9101D4152D2EB04D007BAF48 /* Preview Content */,
 			);
@@ -65,6 +80,60 @@
 				9101D4162D2EB04D007BAF48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9101D41D2D2F0339007BAF48 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9101D4202D2F0348007BAF48 /* Model */,
+				9101D41F2D2F0346007BAF48 /* View */,
+				9101D41E2D2F0344007BAF48 /* ViewModel */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		9101D41E2D2F0344007BAF48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9101D4232D2F062F007BAF48 /* HomeScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9101D41F2D2F0346007BAF48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9101D4252D2F065C007BAF48 /* HomeScreenView.swift */,
+				9101D4272D2F099F007BAF48 /* Subviews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9101D4202D2F0348007BAF48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9101D4212D2F0366007BAF48 /* HomeScreenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9101D4272D2F099F007BAF48 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				9101D42E2D2F99CB007BAF48 /* Helper Classes */,
+				9101D42A2D2F09ED007BAF48 /* HomeScreenItemView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		9101D42E2D2F99CB007BAF48 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9101D42F2D2F99DC007BAF48 /* ToastView.swift */,
+				9101D4282D2F09CD007BAF48 /* ErrorView.swift */,
+				9101D4312D2FB0B6007BAF48 /* BurstFadeAnimation.swift */,
+			);
+			path = "Helper Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9101D4322D2FB0B6007BAF48 /* BurstFadeAnimation.swift in Sources */,
+				9101D4302D2F99DC007BAF48 /* ToastView.swift in Sources */,
 				9101D4122D2EB04C007BAF48 /* ContentView.swift in Sources */,
+				9101D4292D2F09CD007BAF48 /* ErrorView.swift in Sources */,
+				9101D4242D2F062F007BAF48 /* HomeScreenViewModel.swift in Sources */,
+				9101D42B2D2F09ED007BAF48 /* HomeScreenItemView.swift in Sources */,
+				9101D4262D2F065C007BAF48 /* HomeScreenView.swift in Sources */,
 				9101D4102D2EB04C007BAF48 /* TestApp.swift in Sources */,
+				9101D4222D2F0366007BAF48 /* HomeScreenModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
