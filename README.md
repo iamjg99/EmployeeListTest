@@ -20,5 +20,6 @@ SwiftUI: For building a declarative UI.
 Combine: For handling asynchronous API calls.
 URLSession: For making network requests.
 
-https://github.com/user-attachments/assets/6ab35b5a-4d72-44d1-9688-3382f98d25d9
+https://github.com/user-attachments/assets/1119a2ec-d609-4177-aded-5159f7812df5
+
 
