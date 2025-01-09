@@ -32,7 +32,7 @@ struct HomeScreenView: View {
                                     ZStack {
                                         if deletingEmployeeID == employee.id {
                                             BurstFadeAnimation()
-                                                .frame(height: 150)
+                                                .frame(height: 80)
                                                 .onAppear {
                                                     DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                                                         viewModel.deleteEmployee(employee)
